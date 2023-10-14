@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgilendirme Fişi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+
+
+
+        <button id="openModalOrder" type="button" class="btn btn-info btn-lg" data-toggle="modal"
+            data-target="#myModal">Fiş
+            Göster</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <div class="container">
+
+                            <div class="receipt_header">
+                                <h1><img src="/favicon-home.png" alt="" width="180px" height="180px"> <span>PARTNER
+                                        ADI</span></h1>
+
+                            </div>
+
+                            <div class="receipt_body">
+
+                                <div class="user_information">
+
+                                    <div class="user_name">
+                                        <b>AD SOYAD</b> <br>
+                                        <span>Gökmen N.</span>
+                                    </div>
+
+                                    <br>
+                                    <div class="user_tel">
+                                        <b>TELEFON NUMARASI</b><br>
+                                        <span>+90 501 353 21 36</span>
+                                    </div>
+                                    <br>
+                                    <div class="user_order_date">
+                                        <b>SİPARİŞ TARİHİ</b><br>
+                                        <span>09.09.2023 Cumartesi 13:56</span>
+                                    </div>
+
+                                    <br>
+                                    <div class="user_order_pay">
+                                        <b>ÖDEME TİPİ</b><br>
+                                        <span>Online Kredi/Banka Kartı</span>
+                                    </div>
+                                    <br>
+                                    <div class="user_order_adress">
+                                        <b>TESLİMAT ADRESİ</b> <br>
+                                        <span>Karakaş Mah. No:10/41 - Kırklareli Merkez</span>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="items">
+                                <table>
+
+                                    <thead>
+                                        <th>ÜRÜN ADI</th>
+                                        <th>ADET</th>
+
+                                        <th>FİYAT</th>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+
+                                            <td>Döner</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>Köfte</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>Lahmacun</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>Pizza</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+                                        <tr>
+
+                                            <td>Döner</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>Köfte</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>Lahmacun</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>Pizza</td>
+                                            <td>1</td>
+                                            <td>2.3</td>
+                                        </tr>
+                                    </tbody>
+
+
+
+                                    <tfoot>
+                                        <tr>
+                                            <td>Toplam Ödenen Tutar</td>
+                                            <td></td>
+                                            <td>200</td>
+                                        </tr>
+
+
+
+                                        <tr>
+                                            <td>Toplam (KDV Dahil)</td>
+                                            <td></td>
+                                            <td>210</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>İndirim</td>
+                                            <td></td>
+                                            <td>10</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Kalan</td>
+                                            <td></td>
+                                            <td>0</td>
+                                        </tr>
+
+
+                                    </tfoot>
+
+                                </table>
+                            </div>
+
+                            <div class="order_node"> </div>
+                            <br>
+                            <div class="user_order_node">
+                                <b>SİPARİŞ NOTU</b> <br>
+                                <span>Merhaba sipariş notum</span>
+                            </div> <br>
+                            <span id="end_node">* Online Kredi/Banka Kartı - Sipariş Tutarı İnternet Sayfamız
+                                Üzerinden ÖDENMİŞTİR!
+                                &nbsp; Lütfen FİŞ Getiriniz. &nbsp; MALİ DEĞERİ YOKTUR!</span>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+
+
+                        <button type="button" class="btn btn-info">Yazdır</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Çıkış</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </body>
+
+    </html>
+
+
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
